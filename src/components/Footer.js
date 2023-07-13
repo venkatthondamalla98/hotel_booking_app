@@ -3,14 +3,16 @@ const Footer = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "space-around",
           backgroundColor: "#232f3e",
           flexWrap: "wrap",
           borderRadius: "5px",
           position: "sticky",
+          padding:"10px"
+
         }}
       >
-        <div style={{ marginLeft: 200 }}>
+        <div >
           <ul>
             <h3>
               <li style={{ color: "white", listStyle: "none" }}>Get to know</li>
@@ -28,7 +30,7 @@ const Footer = () => {
           </ul>
         </div>
   
-        <div style={{ marginRight: 200, marginBottom: 20 }}>
+        <div >
           <h3>
             <li style={{ color: "white", listStyle: "none" }}>Connect with Us</li>
           </h3>
